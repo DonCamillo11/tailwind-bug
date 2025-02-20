@@ -1,0 +1,25 @@
+@import '@fortawesome/fontawesome-pro/css/fontawesome' layer(base);
+@import '@fortawesome/fontawesome-pro/css/brands' layer(base);
+@import '@fortawesome/fontawesome-pro/css/duotone' layer(base);
+@import '@fortawesome/fontawesome-pro/css/regular' layer(base);
+@import '@fortawesome/fontawesome-pro/css/solid' layer(base);
+@import '@fortawesome/fontawesome-pro/css/light' layer(base);
+
+@import '../../vendor/wire-elements/pro/resources/css/tailwind/overlay-component.css'
+  layer(base);
+@import '../../vendor/wire-elements/pro/resources/css/tailwind/insert-component.css'
+  layer(base);
+@import 'tailwindcss';
+
+@config '../../tailwind.config.js';
+
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+}
