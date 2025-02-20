@@ -1,0 +1,29 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "watch": "vite build --watch"
+    },
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.5.2",
+        "@tailwindcss/postcss": "^4.0.7",
+        "@tailwindcss/typography": "^0.5.0",
+        "axios": "^1.6.4",
+        "laravel-vite-plugin": "^1.2.0",
+        "postcss": "^8.4.14",
+        "tailwindcss": "^4.0.7",
+        "vite": "^6.0.0"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-pro": "^6.6.0",
+        "@fullcalendar/moment": "^6.1.15",
+        "flatpickr": "^4.6.13",
+        "fullcalendar-scheduler": "^6.1.15",
+        "inputmask": "^5.0.8",
+        "signature_pad": "^5.0.4",
+        "sortablejs": "^1.15.2",
+        "textarea-caret": "^3.1.0"
+    }
+}
