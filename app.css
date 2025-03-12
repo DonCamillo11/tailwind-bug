@@ -1,14 +1,10 @@
-@import '@fortawesome/fontawesome-pro/css/fontawesome' layer(base);
-@import '@fortawesome/fontawesome-pro/css/brands' layer(base);
-@import '@fortawesome/fontawesome-pro/css/duotone' layer(base);
-@import '@fortawesome/fontawesome-pro/css/regular' layer(base);
-@import '@fortawesome/fontawesome-pro/css/solid' layer(base);
-@import '@fortawesome/fontawesome-pro/css/light' layer(base);
+@import '@fortawesome/fontawesome-free/css/fontawesome' layer(base);
+@import '@fortawesome/fontawesome-free/css/brands' layer(base);
+@import '@fortawesome/fontawesome-free/css/duotone' layer(base);
+@import '@fortawesome/fontawesome-free/css/regular' layer(base);
+@import '@fortawesome/fontawesome-free/css/solid' layer(base);
+@import '@fortawesome/fontawesome-free/css/light' layer(base);
 
-@import '../../vendor/wire-elements/pro/resources/css/tailwind/overlay-component.css'
-  layer(base);
-@import '../../vendor/wire-elements/pro/resources/css/tailwind/insert-component.css'
-  layer(base);
 @import 'tailwindcss';
 
 @config '../../tailwind.config.js';
